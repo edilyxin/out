@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.line{ background:url(../image/line.jpg) no-repeat;
+	width:978px;
+	height:33px;
+	
+	}
+.line ul li{
+	float:left;
+	margin-left:20px;
+	margin-top:5px;
+	
+	}
+*html .line ul li{ margin-left:16px;}
+.line ul li img{ cursor:pointer;
+	
+	}	
+	

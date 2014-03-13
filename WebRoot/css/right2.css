@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+.right2{
+	float:right;
+	margin:-5px 6px 5px auto;
+	}
+.right2_s{ 
+	background:url(../image/right_3.jpg) no-repeat;
+	width:732px;
+	height:30px;
+	}
+
+.right2_x{
+	border:1px solid #6C7D86;
+	height:522px;
+	width:728px;
+	border-top-style:none;
+
+	}
+.right2_z{ margin:10px 220px;}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!-- 存放模板的文件夹地址 -->
+	<property name="tempDir">/temp/</property>
+    <property name="mng_right">功能信息模板.xls</property>
+    <property name="mng_oper">操作信息模板.xls</property>
+    <property name="mng_dboper">数据权限信息模板.xls</property>
+    <property name="mng_unitdepart">单位部门信息模板.xls</property>
+    <property name="mng_job">岗位信息模板.xls</property>
+    <property name="mng_post">职称信息模板.xls</property>
+    <property name="mng_emp">职工信息模板.xls</property>
+    <property name="mng_housetype">楼栋类型模板.xls</property>
+    <property name="mng_house">楼栋信息模板.xls</property>
+    <property name="mng_roomtype">房间类型模板.xls</property>
+    <property name="mng_room">房间信息模板.xls</property>
+    <property name="mng_asstestype">资产分类模板.xls</property>
+    <property name="mng_role">角色信息模板.xls</property>
+    <property name="exp_stxk">学生课表.xls</property>
+    <property name="ep_project">批复导入模板.xls</property>
+    
+    <!-- 存放下载文件的文件夹地址 -->
+	<property name="download">/download/</property>
+    
+</config>
+

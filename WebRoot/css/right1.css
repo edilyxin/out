@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+.right1{
+	background:url(../image/yuanbj.jpg) no-repeat;
+	width:735px;
+	height:30px;
+	float:right;
+	margin:5px 5px 5px auto;
+	}
+.right1_ul1{
+	float:left;
+	}	
+.right1_ul3{
+	margin:10px auto auto 14px;
+	}	
+.right1 .right1_ul1 li{ float:left;
+	margin:10px auto auto 14px;
+	}
+.right1 .right1_ul1 li a{
+	color:#000;
+	}
+
+.right1_ul2{
+	float:right;
+	margin-right:20px;
+	margin-top:10px;
+	}	
+.right1 .right1_ul2 li{
+	float:left;
+	margin-left:6px;
+	}
+.right1 .right1_ul2 li a{
+	color:#000;
+	}

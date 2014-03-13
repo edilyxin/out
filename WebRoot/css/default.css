@@ -1,0 +1,86 @@
+/* ------ general
+-----------------------------------------------*/
+
+body {
+font-family:Arial, Helvetica, sans-serif;
+background:#f1f1f1;
+font-size:11px;
+}
+
+/* ------ mobilyselect
+-----------------------------------------------*/
+
+#content {
+width:100%;
+margin:10px auto 0;
+}
+
+.selecterBtns {
+float:left;
+width:600px;
+margin-bottom:25px;
+}
+
+.selecterBtns a {
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+border-radius:8px;
+background:#EDEDED;
+color:#111;
+display:block;
+float:left;
+font-size:11px;
+line-height:28px;
+margin-right:4px;
+outline:none;
+padding:0 15px;
+text-decoration:none;
+}
+
+.selecterBtns .active,
+.selecterBtns a:hover {
+background:#111;
+color:#fff;
+}
+
+.selecterContent {
+float:left;
+width:100%;
+clear:both;
+}
+
+.selecterContent a {
+outline:none;
+}
+
+.selecterContent li {
+width:30px;
+height:30px;
+overflow:hidden;
+}
+
+ul.nolist,
+ul.nolist li {
+display:block;
+list-style:none;
+padding:0;
+margin:0;
+}
+
+ul.nolist li {
+float:left;
+margin:0 5px 5px 0;	
+}
+
+a {
+color:#fff;
+}
+
+a img {
+border:none;
+}
+
+
+p a{
+color:#333;
+}

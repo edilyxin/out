@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+.left{
+	float:left;
+	background:url(../image/left_k.jpg) no-repeat;
+	width:228px;
+	height:619px;
+	}
+*html .left{ padding-right:10px;}
+.left_g{ background:url(../image/top_cd.jpg) no-repeat;
+	width:212px;
+	height:24px;
+	margin:4px 6px 5px;
+
+	}
+
+.left_g2{ 
+	
+	width:218px;
+	height:563px;
+	margin:0px;
+	float:left
+	} 
+
+.left_gtt{ background:url(../image/left_stt.jpg) no-repeat;
+	width:10px;
+	height:563px;
+	float:right;
+	cursor:pointer;
+	}	
+.left_g2 ul li{
+	margin-left:50px;
+	}
+.left_kk{
+	width:100px;
+	height:1px;
+	
+	}
+.left_g2 ul li a{ 
+	color:#213554;
+	font-weight:800;
+	font-size:15px;
+	}
+.left_a1{
+	margin-top:28px;
+	
+	}
+.left_a2{
+	margin-top:32px;
+	
+	}
+.left_a3{
+	margin-top:38px;
+	
+	}
+.left_a4{
+	margin-top:34px;
+	
+	}
+.left_a5{
+	margin-top:36px;
+	
+	}
