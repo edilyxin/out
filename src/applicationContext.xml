@@ -168,6 +168,164 @@
 		<property name="sqlMapClient" ref="sqlMapClient" />
     </bean>
 
+
+
+
+<!-- 初申报项目表-->
+	
+    <bean id="ckCheckDAO" class="com.rc.project.dao.CkCheckDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+     <bean id="epAccessoryDAO" class="com.rc.project.dao.EpAccessoryDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+    <bean id="epBidDAO" class="com.rc.project.dao.EpBidDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+    <bean id="epBidWinDAO" class="com.rc.project.dao.EpBidWinDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+    <bean id="epContractDAO" class="com.rc.project.dao.EpContractDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+
+ 	<bean id="epEntrancecDAO" class="com.rc.project.dao.EpEntrancecDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+	<bean id="epEntrancepDAO" class="com.rc.project.dao.EpEntrancepDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+    <bean id="epFormworkDAO" class="com.rc.project.dao.EpFormworkDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+    <bean id="epMailDAO" class="com.rc.project.dao.EpMailDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+    <bean id="epPackageDAO" class="com.rc.project.dao.EpPackageDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+    <bean id="epPackageListDAO" class="com.rc.project.dao.EpPackageListDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+    <bean id="epPayMoneyDAO" class="com.rc.project.dao.EpPayMoneyDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+    <bean id="epPersonDAO" class="com.rc.project.dao.EpPersonDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+    <bean id="epProcessDAO" class="com.rc.project.dao.EpProcessDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+    <bean id="epProjectDAO" class="com.rc.project.dao.EpProjectDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+    <bean id="epProjectDetailDAO" class="com.rc.project.dao.EpProjectDetailDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+    <bean id="epSettingDAO" class="com.rc.project.dao.EpSettingDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+    <bean id="rpFileDAO" class="com.rc.project.dao.RpFileDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+    <bean id="rpMiddleDAO" class="com.rc.project.dao.RpMiddleDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+    <bean id="rpReportBeginDAO" class="com.rc.project.dao.RpReportBeginDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+    
+    <bean id="rpReportDAO" class="com.rc.project.dao.RpReportDAO">
+    <property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="sqlMapClient" ref="sqlMapClient" />
+    </bean>
+
+
+
+
+
+
+
 <!-- 放大镜 -->
     <bean id="treeService" class="com.rc.sys.service.impl.TreeServiceImpl">
 		<property name="treeDAO">
