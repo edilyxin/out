@@ -1,1 +1,4 @@
 /builder
+/.settings
+/.classpath
+/.project
