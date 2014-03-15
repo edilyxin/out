@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>   
 <!DOCTYPE sqlMapConfig PUBLIC "-//iBATIS.com//DTD SQL Map Config 2.0//EN" "http://www.ibatis.com/dtd/sql-map-config-2.dtd">    
+
 <sqlMapConfig> 
     <settings 
     	cacheModelsEnabled="true" 
@@ -44,28 +45,4 @@
     <sqlMap resource="map/Sql-Base-Post.xml"/>     
 <!-- 职工管理 -->
     <sqlMap resource="map/Sql-Base-Emp.xml"/>
-    
-    
-      
-    <sqlMap resource="map/Sql-Project-Accessory.xml"/>
-    <sqlMap resource="map/Sql-Project-Bid.xml"/>
-    <sqlMap resource="map/Sql-Project-BidWin.xml"/>
-    <sqlMap resource="map/Sql-Project-Check.xml"/>    
-    <sqlMap resource="map/Sql-Project-Contract.xml"/>
-    <sqlMap resource="map/Sql-Project-Entrancec.xml"/>
-    <sqlMap resource="map/Sql-Project-Entrancep.xml"/>
-    <sqlMap resource="map/Sql-Project-File.xml"/>
-    <sqlMap resource="map/Sql-Project-Formwork.xml"/>
-    <sqlMap resource="map/Sql-Project-Mail.xml"/>
-    <sqlMap resource="map/Sql-Project-Middle.xml"/>
-    <sqlMap resource="map/Sql-Project-Package.xml"/>
-    <sqlMap resource="map/Sql-Project-PackageList.xml"/>
-    <sqlMap resource="map/Sql-Project-PayMoney.xml"/>
-    <sqlMap resource="map/Sql-Project-Person.xml"/>
-    <sqlMap resource="map/Sql-Project-Process.xml"/>
-    <sqlMap resource="map/Sql-Project-Project.xml"/>
-    <sqlMap resource="map/Sql-Project-ProjectDetail.xml"/>
-    <sqlMap resource="map/Sql-Project-Report.xml"/>
-    <sqlMap resource="map/Sql-Project-ReportBegin.xml"/>
-    <sqlMap resource="map/Sql-Project-Setting.xml"/>
  </sqlMapConfig> 
